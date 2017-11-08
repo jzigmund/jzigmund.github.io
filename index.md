@@ -7,7 +7,7 @@
   </div>                                                                                                        
  <div class="column is-6 is-offset-1">                                                                         
   <h1 class="title is-2">                                                                                     
-   LeAppFuTest                                                                                     
+   LeAppFuTestTest                                                                                     
   </h1>                                                                                                       
   <h2 class="subtitle is-4">                                                                                  
    Let this cover page describe a product or service.                                                        
