@@ -12,7 +12,7 @@
 
    You can execute specific commands (with custom options) and then read the output after execution.
 
-2. **Daemon**
+2. **Daemon** (Repository [leapp-go](https://github.com/leapp-to/leapp-go))
    
    Daemon exposes HTTP endpoints for Client. It runs Executor and save information about executed commands in Database.
 
@@ -27,7 +27,7 @@
    By keeping information in database we are able to build migrations history.
    Those kind of information are not only useful for end-users, it is also useful for contributors to analyze migration process and improve it in the future.
 
-4. **Executor**
+4. **Executor** (Repository [snactor](https://github.com/leapp-to/snactor))
    
    Daemon passes specific workflow to Executor and the Executor then is able to run bunch of actors defined in one workflow.
 
@@ -46,7 +46,7 @@
     4. Network (open ports, firewall rules etc.)
     5. Data
 
-5. **Actors**
+5. **Actors** (Repository [leapp-actors](https://github.com/leapp-to/leapp-actors))
 
    Actor is self contained unit which is handling specific aspect of given workflow.
 
